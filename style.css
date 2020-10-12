@@ -1,0 +1,42 @@
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 1, 1);
+}
+
+#quote-box {
+    width: 550px;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#new-quote {
+    border: 2px solid rgb(205, 19, 238);
+    font-size: x-large;
+    color: rgb(205, 19, 238);
+    background-color: rgb(14, 1, 1);
+    font-weight: 2px;
+    
+}
+
+#new-quote:hover {
+    background-color: rgb(205, 19, 238);
+    color: rgb(14, 1, 1);
+}
+
+#tweet-quote {
+    font-size: x-large;
+}
+
+#text {
+    color: rgb(205, 19, 238);
+    font-size: 45px;
+    font-family: 'Sansita Swashed', cursive;
+    line-height: 50px;
+}
+
+#author {
+    color: rgb(114, 112, 111);
+}
