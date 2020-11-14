@@ -3,13 +3,13 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(14, 1, 1);
+    min-height: 100vh;
 }
 
 #quote-box {
+    justify-content: center;
     width: 550px;
     height: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #new-quote {
@@ -32,6 +32,7 @@
 
 #tweet-quote {
     font-size: x-large;
+    margin-left: 10px;
 }
 
 #text {
@@ -43,6 +44,7 @@
 
 #author {
     color: rgb(114, 112, 111);
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 400px) {
